@@ -1,0 +1,22 @@
+# This is the original Config of CoolCommands
+
+WeatherCommand:
+  enabled: true # set to true to enable the Command
+  require_permission: true # Highly recommended setting this tu true otherwise everyone could change the Weather in your Sever
+  # Permissions for that Command:
+  # "coolcommands.weather" to use the Command
+  # "coolcammands.weather.notify" to get notified if a Player uses that Command
+
+HealCommand:
+  enabled: true # set to true to enable the Command
+  require_permission: true # Highly recommended setting this tu true otherwise everyone could heal himself
+  # Permissions for that Command:
+  # "coolcommands.heal" to use the Command
+  # "coolcammands.heal.notify" to get notified if a Player uses that Command
+
+TimeCommand:
+  enabled: true # set to true to enable the Command
+  require_permission: true # Highly recommended setting this tu true otherwise everyone could change the Time in your Minecraft World
+  # Permissions for that Command:
+  # "coolcommands.time" to use the Command
+  # "coolcammands.time.notify" to get notified if a Player uses that Command

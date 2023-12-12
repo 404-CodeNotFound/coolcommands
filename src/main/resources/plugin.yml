@@ -1,0 +1,23 @@
+name: CoolCommands
+version: '1.0'  # Replace with your actual version
+main: de.codenotfound.coolcommands.CoolCommands
+api-version: '1.19'
+commands:
+  heal:
+    description: 'Heal Yourself or Another Player'
+    usage: '/heal [player]'
+    permission: 'coolcommands.heal'
+    aliases:
+      - 'h'
+  weather:
+    description: 'Set the weather'
+    usage: '/weather <sun/rain/storm>'
+    permission: 'coolcommands.weather'
+  time:
+    description: 'Set the time of day'
+    usage: '/time <day/night/midnight/morning/afternoon> OR /time <ticks>'
+    permission: 'coolcommands.time'
+  give:
+    description: 'Give items to yourself'
+    usage: '/give <item> [amount]'
+    permission: 'coolcommands.give'
